@@ -1,0 +1,13 @@
+seed: 42
+
+data:
+  test_size: 0.2
+
+model:
+  C: 1.0
+  max_iter: 1000
+
+mlflow:
+  #tracking_uri: ./mlruns
+  tracking_uri: "sqlite:////home/kheiredine/Documents/TP/mlflow.db"
+  experiment_name: "breast-cancer-classification"

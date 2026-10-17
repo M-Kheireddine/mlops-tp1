@@ -5,3 +5,4 @@ mlruns/
 artifacts/
 *.pyc
 .idea
+mlflow.db
